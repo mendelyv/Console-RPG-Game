@@ -1,0 +1,7 @@
+<Role Name="Blue" HP="2000" MP="700" Atk="95" Def="55" Level="1" MaxHP="2000" MaxMP="700" Golden="10200" MapName="5" Experience="0" UpExperience="300" PositionX="9" PositionY="12" BagSize="30">
+    <Item Name="Transister" Type="1" Num="1" ID="30000" HP="0" MP="0" Overly="0" Price="0" Atk="10" Def="0">增加攻击力10点</Item>
+    <Item Name="血药" Type="0" Num="3" ID="10000" HP="500" MP="0" Overly="1" Price="300" Atk="0" Def="0">回复生命值500点</Item>
+    <Item Name="蓝药" Type="0" Num="2" ID="15000" HP="0" MP="300" Overly="1" Price="200" Atk="0" Def="0">回复魔法值300点</Item>
+    <Equip Name="Transister" Type="1" Num="1" ID="30000" HP="0" MP="0" Overly="0" Price="0" Atk="10" Def="0">增加攻击力10点</Equip>
+    <Equip Name="PlanA" Type="2" Num="1" ID="20000" HP="0" MP="0" Overly="0" Price="1500" Atk="0" Def="20">增加防御力20点</Equip>
+</Role>

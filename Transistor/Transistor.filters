@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="XML">
+      <UniqueIdentifier>{843e37b6-e76a-4b4f-bfcf-af40e0704e6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="场景系统">
+      <UniqueIdentifier>{799ea745-dfdf-4449-90e0-f7d335300571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="地图">
+      <UniqueIdentifier>{fce1cd3a-db64-4de4-9919-9395b247b449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="开始界面">
+      <UniqueIdentifier>{84549df3-9cfc-48f6-bc23-edd3c050bdac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="开始界面\CBeginScene">
+      <UniqueIdentifier>{62717b7f-5019-4e32-a281-a0d2fd4f0a40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工具函数">
+      <UniqueIdentifier>{f8dec462-39b0-4729-9819-f135c24a9318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="角色">
+      <UniqueIdentifier>{b441d8aa-93fc-4489-84d7-24cf44c3bb53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="背包系统">
+      <UniqueIdentifier>{c28897b9-bffc-48c4-8fed-ba57af52b2e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="物品类">
+      <UniqueIdentifier>{0fe753bf-53be-44a9-b744-48730ce34fe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="物品类\物品基类">
+      <UniqueIdentifier>{80fe4627-bde7-4916-a231-4db989269a9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="背包系统\背包控制系统">
+      <UniqueIdentifier>{b6fb1c8d-71ad-48e8-9b6b-7f28ba00dc3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="背包系统\角色背包">
+      <UniqueIdentifier>{3aec5ce1-b3f2-4bb1-9083-219fa6808c0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="背包系统\装备栏类">
+      <UniqueIdentifier>{a9d9b93b-50d5-4535-bf70-1786267dc19d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="怪物类">
+      <UniqueIdentifier>{0e29ba24-ffe5-49d5-b60a-284f633541a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="怪物类\怪物基类">
+      <UniqueIdentifier>{a287fb20-1f39-4b51-a457-d1864df87d80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="怪物类\Process怪">
+      <UniqueIdentifier>{e0599647-f6bb-4c36-b4b9-dd680d1d07e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="战斗系统">
+      <UniqueIdentifier>{e17311fd-ac6e-472c-b3b8-1612f81aef90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="怪物类\Camerata怪">
+      <UniqueIdentifier>{3570c93d-24ea-4b70-9b57-43cff344a836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="怪物类\Boss">
+      <UniqueIdentifier>{c957ee51-136c-4b05-8fc4-688337e7ae79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ESC系统">
+      <UniqueIdentifier>{6ba47230-66a9-432e-8e91-1ba390c3523b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tinyxml\tinystr.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxml.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxmlerror.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxmlparser.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="CBeginScene.cpp">
+      <Filter>开始界面\CBeginScene</Filter>
+    </ClCompile>
+    <ClCompile Include="comment.cpp">
+      <Filter>工具函数</Filter>
+    </ClCompile>
+    <ClCompile Include="CUISceneSys.cpp">
+      <Filter>场景系统</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMap.cpp">
+      <Filter>地图</Filter>
+    </ClCompile>
+    <ClCompile Include="CRole.cpp">
+      <Filter>角色</Filter>
+    </ClCompile>
+    <ClCompile Include="CItem.cpp">
+      <Filter>物品类\物品基类</Filter>
+    </ClCompile>
+    <ClCompile Include="CBagSys.cpp">
+      <Filter>背包系统\背包控制系统</Filter>
+    </ClCompile>
+    <ClCompile Include="CRoleBag.cpp">
+      <Filter>背包系统\角色背包</Filter>
+    </ClCompile>
+    <ClCompile Include="CEquip.cpp">
+      <Filter>背包系统\装备栏类</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster.cpp">
+      <Filter>怪物类\怪物基类</Filter>
+    </ClCompile>
+    <ClCompile Include="CProcess.cpp">
+      <Filter>怪物类\Process怪</Filter>
+    </ClCompile>
+    <ClCompile Include="CFightSys.cpp">
+      <Filter>战斗系统</Filter>
+    </ClCompile>
+    <ClCompile Include="CCamerata.cpp">
+      <Filter>怪物类\Camerata怪</Filter>
+    </ClCompile>
+    <ClCompile Include="CBoss.cpp">
+      <Filter>怪物类\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="CESC.cpp">
+      <Filter>ESC系统</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>工具函数</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tinyxml\tinystr.h">
+      <Filter>XML</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml\tinyxml.h">
+      <Filter>XML</Filter>
+    </ClInclude>
+    <ClInclude Include="CSingleton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CBeginScene.h">
+      <Filter>开始界面\CBeginScene</Filter>
+    </ClInclude>
+    <ClInclude Include="comment.h">
+      <Filter>工具函数</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CUISceneSys.h">
+      <Filter>场景系统</Filter>
+    </ClInclude>
+    <ClInclude Include="CMap.h">
+      <Filter>地图</Filter>
+    </ClInclude>
+    <ClInclude Include="CRole.h">
+      <Filter>角色</Filter>
+    </ClInclude>
+    <ClInclude Include="Mydefine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CItem.h">
+      <Filter>物品类\物品基类</Filter>
+    </ClInclude>
+    <ClInclude Include="CBagSys.h">
+      <Filter>背包系统\背包控制系统</Filter>
+    </ClInclude>
+    <ClInclude Include="CRoleBag.h">
+      <Filter>背包系统\角色背包</Filter>
+    </ClInclude>
+    <ClInclude Include="CEquip.h">
+      <Filter>背包系统\装备栏类</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster.h">
+      <Filter>怪物类\怪物基类</Filter>
+    </ClInclude>
+    <ClInclude Include="CProcess.h">
+      <Filter>怪物类\Process怪</Filter>
+    </ClInclude>
+    <ClInclude Include="CFightSys.h">
+      <Filter>战斗系统</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamerata.h">
+      <Filter>怪物类\Camerata怪</Filter>
+    </ClInclude>
+    <ClInclude Include="CBoss.h">
+      <Filter>怪物类\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="CESC.h">
+      <Filter>ESC系统</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>工具函数</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

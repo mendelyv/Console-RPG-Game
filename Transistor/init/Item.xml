@@ -1,0 +1,5 @@
+<Item ID="10000" Name="血药" HP="500" Describe="回复生命值500点" Overly="1" Price="300" Type="0"></Item>
+<Item ID="15000" Name="蓝药" MP="300" Describe="回复魔法值300点" Overly="1" Price="200" Type="0"></Item>
+<Item ID="20000" Name="PlanA" Def="20" Describe="增加防御力20点" Overly="0" Price="1500" Type="2"></Item>
+<Item ID="20100" Name="PlanB" Def="30" Describe="增加防御力30点" Overly="0" Price="2500" Type="2"></Item>
+<Item ID="30000" Name="Transister" Atk="10" Describe="增加攻击力10点" Type="1" Overly="0"></Item>
