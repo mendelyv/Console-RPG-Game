@@ -180,7 +180,7 @@ void CMap::ctrlOfMap()
 				char money[30] = "show me the money";
 				char sr[255] = { 0 };
 				gotoXY(m_textPositionX, m_textPositionY);
-				gets(sr);
+				gets_s(sr);
 				gotoXY(m_textPositionX, m_textPositionY); cout << "                              ";
 				if (0 == strcmp(dad, sr))
 				{
